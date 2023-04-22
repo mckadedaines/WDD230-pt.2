@@ -1,0 +1,82 @@
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 5%;
+  background-color: #3376aa;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+}
+
+#intern {
+  width: 25%;
+  box-shadow: 5px 5px 10px black;
+}
+
+header h1 {
+  text-shadow: 5px 5px 10px black;
+  color: white;
+}
+
+.mainBox {
+  display: grid;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+main ul {
+  display: grid;
+  gap: 10px;
+}
+
+main hr {
+  width: 100%;
+}
+
+main h2 {
+  text-shadow: 5px 5px 10px black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 5%;
+  background-color: #3376aa;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+  color: white;
+}
+
+#footerTitle {
+  font-size: x-large;
+}
+
+.footerAlign {
+  display: grid;
+  text-align: center;
+}
+
+#update {
+  color: yellow;
+  font-size: large;
+}
+
+#lastUpdate {
+  display: flex;
+  gap: 10px;
+  color: yellow;
+  font-size: large;
+  align-items: center;
+  justify-content: center;
+}

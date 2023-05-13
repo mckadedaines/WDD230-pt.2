@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <script defer src="scripts/date.js"></script>
+    <script defer src="scripts/design.js"></script>
+    <title>Join Us!</title>
+  </head>
+  <body>
+    <header>
+      <img class="img" src="images/Community-logo.webp" alt="logo" />
+      <h1>Daines Co. Chamber</h1>
+      <div class="nav-background">
+        <nav class="topnav">
+          <div class="page-links">
+            <a class="active" href="index.html">Home</a>
+            <a class="active" href="discover.html">Discover</a>
+            <a class="active" href="join.html">Join Us</a>
+            <a class="active" href="directory.html">Directory</a>
+          </div>
+          <div class="ham-box">
+            <a class="ham" onclick="myFunction()">&#9776;</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="join-main">
+      <form action="thankyou.html" method="get" autocomplete="on">
+        <div class="inputs">
+          <lable for="fname">First Name *:</lable>
+          <input
+            id="fname"
+            class="bars"
+            name="first name"
+            type="text"
+            required
+          />
+        </div>
+
+        <div class="inputs">
+          <lable for="lname">Last Name *:</lable>
+          <input
+            id="lname"
+            class="bars"
+            name="last name"
+            type="text"
+            required
+          />
+        </div>
+
+        <div class="inputs">
+          <label for="business">Business:</label>
+          <input
+            id="business"
+            class="bars"
+            name="business"
+            type="text"
+            pattern="[A-Za-z -]+"
+            minlength="7"
+          />
+        </div>
+
+        <div class="inputs">
+          <label for="email">Email *:</label>
+          <input
+            id="email"
+            class="bars"
+            type="email"
+            required
+            name="email"
+            placeholder="example@gmail.com"
+          />
+        </div>
+
+        <div class="inputs">
+          <label for="phone">Phone Number *:</label>
+          <input
+            id="phone"
+            class="bars"
+            type="tel"
+            minlength="10"
+            name="telephone"
+            placeholder="(###) ###-####"
+            required
+          />
+        </div>
+
+        <fieldset>
+          <legend>Select One</legend>
+          <label
+            ><input class="field" type="radio" name="radio" />NP
+            Membership</label
+          >
+          <br />
+          <label
+            ><input class="field" type="radio" name="radio" />Bronze
+            Membership</label
+          >
+          <br />
+          <label
+            ><input class="field" type="radio" name="radio" />Silver
+            Membership</label
+          >
+          <br />
+          <label
+            ><input class="field" type="radio" name="radio" />Gold
+            Membership</label
+          >
+        </fieldset>
+
+        <label for="description">Business description:</label>
+        <input
+          id="description"
+          name="description"
+          style="height: 100px; width: 350px"
+        />
+
+        <input id="date" type="hidden" name="email_sent_date" />
+
+        <button type="submit">Submit Form</button>
+      </form>
+
+      <div id="memberships">
+        <div class="options">
+          <b>NP Membership</b>
+          <ul class="list">
+            <li>For non profit organizations and there is no fee</li>
+          </ul>
+        </div>
+        <div class="options">
+          <b>Bronze Membership</b>
+          <ul class="list">
+            <li>15% discount on events</li>
+            <li>10% discount on advertising</li>
+            <li>Fee of $50/month</li>
+          </ul>
+        </div>
+        <div class="options">
+          <b>Silver Membership</b>
+          <ul class="list">
+            <li>25% discount on events</li>
+            <li>15% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>Fee of $100/month</li>
+          </ul>
+        </div>
+        <div class="options">
+          <b>Gold Membership</b>
+          <ul class="list">
+            <li>50% discount on events</li>
+            <li>50% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>5 free featured ads per year</li>
+            <li>1 free training per quarter</li>
+            <li>Fee of $250/month</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <section>
+        <hr />
+        <h3>&copy; 2022 | Mckade Daines | Arizona</h3>
+        <p id="foot">Last Updated: <a id="update"></a></p>
+      </section>
+    </footer>
+  </body>
+</html>

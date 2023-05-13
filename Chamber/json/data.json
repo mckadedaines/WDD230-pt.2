@@ -1,0 +1,88 @@
+{
+  "directory": [
+    {
+      "name": "AZ Ice Gilbert",
+      "address": "2305 E Knox Rd, Gilbert, AZ 85296",
+      "phone": "480-503-7080",
+      "website": "https://azicegilbert.com/",
+      "imageurl": "https://storage.builderall.com//franquias/2/6796099/editor-html/7823787.png"
+    },
+    {
+      "name": "Superstition Springs Center",
+      "address": "6555 E Southern Ave, Mesa, AZ 85206",
+      "phone": "(480) 832-0212",
+      "website": "https://www.superstitionsprings.com/?utm_source=google&utm_medium=onlinesearch&utm_content=gmp_website_button&utm_campaign=yext",
+      "imageurl": "https://assets.macerichepicenter.com/FileManager/Property/Logos/SuperstitionSpringsCenter/logo_superstitionSprings_b.png"
+    },
+    {
+      "name": "Topgolf",
+      "address": "1689 S Santan Village Pkwy, Gilbert, AZ 85295",
+      "phone": "(480) 240-1282",
+      "website": "https://topgolf.com/us/gilbert/",
+      "imageurl": "https://www.logolynx.com/images/logolynx/aa/aad79a190ab966e2b92b559d236808a1.png"
+    },
+    {
+      "name": "Bobby-Q BBQ Restaurant and Steakhouse",
+      "address": "1610 S Stapley Dr, Mesa, AZ 85204",
+      "phone": "(480) 361-7470",
+      "website": "https://bobbyqbbq.com/",
+      "imageurl": "https://bobbyqbbq.com/wp-content/uploads/2018/10/BobbyQs_Logo_white-web2.png"
+    },
+    {
+      "name": "Raising Cane's Chicken Fingers",
+      "address": "1945 S Stapley Dr, Mesa, AZ 85204",
+      "phone": "(480) 207-6190",
+      "website": "https://www.raisingcanes.com/",
+      "imageurl": "https://www.raisingcanes.com/static/logo_raising_cane-0d9875ade5edfc0a546c5d32247dd226.svg"
+    },
+    {
+      "name": "Green Corner Restaurant",
+      "address": "1010 W Southern Ave #7, Mesa, AZ 85210",
+      "phone": "(480) 835-2313",
+      "website": "https://greencorneraz.com/chandler-menu/",
+      "imageurl": "https://greencorneraz.com/wp-content/uploads/2018/09/01.png"
+    },
+    {
+      "name": "AMC Mesa Grand 14",
+      "address": "1645 South Stapley Drive, Mesa, Arizona 85204",
+      "phone": "(480) 503-1680",
+      "website": "https://www.amctheatres.com/movie-theatres/phoenix/amc-mesa-grand-14",
+      "imageurl": "https://iconape.com/wp-content/files/nl/32785/svg/amc-theatres.svg"
+    },
+    {
+      "name": "Downtown Gilbert",
+      "address": "90 E Civic Center Drive, Gilbert, Arizona 85296",
+      "phone": "(480) 503-6000",
+      "website": "https://www.discovergilbert.com/heritagedistrict/",
+      "imageurl": "https://discovergilbert.com/wp-content/uploads/2018/04/logofullcolor.png"
+    },
+    {
+      "name": "Old Town Scottsdale",
+      "address": "E Indian School Rd, Scottsdale, AZ 85251",
+      "phone": "(480) 312-7177",
+      "website": "https://oldtownscottsdaleaz.com/",
+      "imageurl": "https://oldtownscottsdaleaz.com/wp-content/uploads/2018/04/logo.png"
+    },
+    {
+      "name": "OdySea Aquarium",
+      "address": "9500 East Vía de Ventura Suite A-100, Scottsdale, AZ 85256",
+      "phone": "(480) 291-8000",
+      "website": "https://www.odyseaaquarium.com/",
+      "imageurl": "https://www.odyseaaquarium.com/wp-content/uploads/2016/08/odysea-aquarium-logo.svg"
+    },
+    {
+      "name": "Saguaro Lake",
+      "address": "14011 N Bush Highway, Mesa, AZ 85215",
+      "phone": "(480) 986-5546",
+      "website": "https://www.saguarolakemarina.com/",
+      "imageurl": "https://static.wixstatic.com/media/4f5d90_7b79230a13114c7c9996d78dda95e342~mv2.png/v1/crop/x_113,y_221,w_812,h_587/fill/w_239,h_168,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/SAGUARO%20LAKE%20(1).png"
+    },
+    {
+      "name": "Grand Canyon National Park",
+      "address": "20 South Entrance Road Grand Canyon, AZ 86023",
+      "phone": "(928) 638-7888",
+      "website": "https://www.nps.gov/grca/index.htm",
+      "imageurl": "https://img.freepik.com/free-vector/illustration-grand-canyon-national-park-emblem-patch-logo_630259-335.jpg?w=2000"
+    }
+  ]
+}

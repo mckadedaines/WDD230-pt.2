@@ -1,0 +1,62 @@
+/* When screen is at least 550px use this CSS -- MEDIUM Screens just beyond width of phone */
+
+@media only screen and (min-width: 550px) {
+  #main-boxes {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .spotlight-boxes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .spotlight-boxes-holder {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .box2-event {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+
+  .box1-hero {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: auto;
+    width: auto;
+  }
+
+  .box3-new-releases {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .box4-weather {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+
+  .box5-join {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+
+  picture img:hover {
+    box-shadow: 5px 5px 10px black;
+  }
+}

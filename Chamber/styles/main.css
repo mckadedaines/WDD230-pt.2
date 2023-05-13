@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Righteous&display=swap");
+
+/* Mobile First: Phone SMALL screen size CSS here */
+
+body {
+  text-align: center;
+  background-color: #e2dfd8;
+  color: black;
+}
+
+#foot {
+  color: black;
+}
+
+header {
+  display: flex;
+  background-color: #e2dfd8;
+  max-width: 1200px;
+  /* margin-left: 25em;
+    margin-right: 25em; */
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.ham {
+  color: black;
+  font-size: 2em;
+}
+
+h1 {
+  color: black;
+  /* background-color: #18a5c0; */
+  /* padding-left: 5%;
+    padding-right: 5%; */
+  text-shadow: 5px 5px 10px gray;
+  font-family: Righteous;
+}
+
+h3 {
+  color: black;
+}
+
+main {
+  background-color: #e2dfd8;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Quicksand;
+  /* margin-left: 25em;
+    margin-right: 25em; */
+}
+
+.img {
+  width: 3em;
+  height: 3em;
+  background-color: #e2dfd8;
+}
+
+nav div a {
+  text-decoration: none;
+  color: black;
+  font-family: Righteous;
+}
+
+#main-boxes {
+  text-align: center;
+  background-color: #e2dfd8;
+}
+
+#main-boxes > div {
+  /* border: 1px solid;
+    border-color: black; */
+  margin: 10px;
+  background-color: gray;
+  padding: 10px;
+  height: auto;
+}
+
+.page-links {
+  margin: 15px;
+  /* display: block; */
+}
+
+.links a {
+  color: var(--background-white);
+  text-decoration: none;
+}
+
+.date {
+  margin: 0 auto;
+}
+
+nav {
+  max-width: 1000px;
+}
+
+.topnav {
+  color: white;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.spotlight-boxes {
+  display: flex;
+  padding-right: 5px;
+  /* Change this gap and remove it later */
+  /* gap: 100px; */
+  flex-direction: column;
+}
+
+.spotlight-boxes div {
+  width: 100%;
+}
+
+.spotlight {
+  border: 3px solid black;
+}
+
+.delete_later {
+  padding-bottom: 100px;
+}
+
+.page-links,
+.ham-box,
+.ham {
+  display: none;
+}
+
+.date {
+  margin: 0 auto;
+}
+
+.ham-box,
+.ham {
+  display: block;
+}
+
+.box2-event,
+.box4-weather,
+.box5-join {
+  box-shadow: 5px 5px 10px grey;
+}
+
+.box1-hero img {
+  width: 100%;
+}
+
+footer {
+  /* background-color: #18a5c0; */
+  width: auto;
+  margin: 0 auto;
+  color: #daa520;
+}
+
+.spotlight img {
+  width: 40%;
+}
+
+.active:hover {
+  color: #2bb5d9;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+}
+
+#date {
+  color: black;
+  margin: 0 auto;
+  background-color: gray;
+  width: 80%;
+  /* padding-top: 0.5px;
+    padding-bottom: 0.5px; */
+  font-size: 120%;
+  border: 1px solid;
+  border-color: black;
+}
+
+#discover-h1 {
+  color: goldenrod;
+  background-color: gray;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid black;
+}
+
+.discover-pics {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 40px 40px 0px 40px;
+}
+
+.discover-p {
+  color: black;
+}
+
+.discover-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.visited {
+  color: #daa520;
+  background-color: gray;
+  border: 2px solid black;
+}
+
+form {
+  color: black;
+  margin: 20px;
+  border: 2px solid black;
+  background-color: lightgray;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 10px;
+}
+
+#description {
+  margin: 10px;
+}
+
+.field {
+  /* display: grid;
+    flex-wrap: wrap; */
+}
+
+fieldset {
+  display: grid;
+  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  width: 25%;
+}
+
+.bars {
+  margin-left: 10px;
+}
+
+.list {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.options {
+  margin: 10px;
+}
+
+#memberships {
+  color: black;
+}
+
+#join-main {
+  display: flex;
+}
+
+.cards {
+  color: black;
+  /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.cards section {
+  background-color: lightgray;
+  border: 2px solid black;
+  margin: 5px;
+  /* width: 100%; */
+}
+
+.cards img {
+  width: 25%;
+}
+
+.social_icons {
+  width: 35px;
+}
+
+#social_box {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 25%;
+}

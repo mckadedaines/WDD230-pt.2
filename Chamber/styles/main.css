@@ -160,6 +160,7 @@ footer {
 
 .active:hover {
   color: #2bb5d9;
+  font-size: large;
 }
 
 .active {
@@ -289,4 +290,14 @@ fieldset {
   margin-top: 10px;
   margin-bottom: 10px;
   width: 25%;
+}
+
+#map {
+  text-decoration: none;
+  color: black;
+}
+
+#map:hover {
+  color: #2bb5d9;
+  font-size: larger;
 }

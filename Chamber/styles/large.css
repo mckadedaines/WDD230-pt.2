@@ -34,6 +34,11 @@
         height: auto; */
   }
 
+  .hero {
+    height: 100%;
+    width: 100%;
+  }
+
   .box3-new-releases {
     grid-column-start: 2;
     grid-column-end: 3;

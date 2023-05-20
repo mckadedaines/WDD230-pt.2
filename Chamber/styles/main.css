@@ -90,6 +90,10 @@ nav div a {
   margin: 0 auto;
 }
 
+.date-time {
+  color: rgba(255, 255, 0, 0.897);
+}
+
 nav {
   max-width: 1000px;
 }
@@ -106,7 +110,7 @@ main {
   display: flex;
   padding-right: 5px;
   /* Change this gap and remove it later */
-  /* gap: 100px; */
+  gap: 20px;
   flex-direction: column;
 }
 
@@ -143,6 +147,10 @@ main {
   box-shadow: 5px 5px 10px grey;
 }
 
+.box2-event h4 {
+  color: rgba(255, 255, 0, 0.897);
+}
+
 .box1-hero img {
   width: 100%;
 }
@@ -159,7 +167,7 @@ footer {
 }
 
 .active:hover {
-  color: #2bb5d9;
+  color: yellow;
   font-size: large;
 }
 
@@ -298,6 +306,52 @@ fieldset {
 }
 
 #map:hover {
-  color: #2bb5d9;
+  color: yellow;
   font-size: larger;
+}
+
+.box4-weather h4 {
+  margin: 0;
+  color: rgba(255, 255, 0, 0.897);
+}
+
+.box4-weather figure {
+  margin: 0;
+}
+
+.box4-weather p {
+  margin: 0;
+}
+
+#current-temp {
+  color: rgba(255, 255, 0, 0.897);
+}
+
+#speed {
+  color: rgba(255, 255, 0, 0.897);
+}
+
+#feel-temp {
+  color: rgba(255, 255, 0, 0.897);
+}
+
+#sky {
+  margin-bottom: 10px;
+  color: rgba(255, 255, 0, 0.897);
+}
+
+.box5-join h4 {
+  color: rgba(255, 255, 0, 0.897);
+}
+
+.box3-new-releases h4 {
+  color: rgba(255, 255, 0, 0.897);
+}
+
+.spotlight h4 {
+  color: rgba(255, 255, 0, 0.897);
+}
+
+.footer_image {
+  width: 100px;
 }

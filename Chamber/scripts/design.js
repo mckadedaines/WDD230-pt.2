@@ -10,7 +10,7 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
   now
 );
 
-datefield.innerHTML = `<p>${fulldate}</p>`;
+datefield.innerHTML = `<p class="date-time">${fulldate}</p>`;
 
 // Gets the last date modified and places it in #update
 let currentdate = document.lastModified;

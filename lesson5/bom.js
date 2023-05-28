@@ -16,5 +16,7 @@ button.addEventListener("click", function(){
             li.remove();
             del.remove();
         });
+
+        input.value = '';
     }
 });

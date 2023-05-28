@@ -320,7 +320,7 @@ fieldset {
 }
 
 .box4-weather p {
-  margin: 0;
+  margin-bottom: 10px;
 }
 
 #current-temp {
@@ -331,7 +331,7 @@ fieldset {
   color: rgba(255, 255, 0, 0.897);
 }
 
-#feel-temp {
+#feelTemp {
   color: rgba(255, 255, 0, 0.897);
 }
 

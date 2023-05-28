@@ -24,3 +24,31 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+
+
+
+// Handles picture size changing for W06 Responsive Design
+window.addEventListener('DOMContentLoaded', function() {
+  var pictureElement = document.querySelector('picture');
+  var imgElement = pictureElement.querySelector('img');
+  var textOverlayElement = document.querySelector('.text-overlay');
+
+  function updateTextOverlay() {
+    var screenWidth = window.innerWidth;
+    var text = '';
+
+    if (screenWidth > 900) {
+      text = "Large Picture";
+    } else if (screenWidth > 550) {
+      text = "Medium Picture";
+    } else {
+      text = "Small Picture";
+    }
+
+    textOverlayElement.textContent = text;
+  }
+
+  window.addEventListener('resize', updateTextOverlay);
+
+  updateTextOverlay();
+});

@@ -191,7 +191,7 @@ footer {
 }
 
 #discover-h1 {
-  color: goldenrod;
+  color: yellow;
   background-color: gray;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -215,7 +215,7 @@ footer {
 }
 
 .visited {
-  color: #daa520;
+  color: yellow;
   background-color: gray;
   border: 2px solid black;
 }

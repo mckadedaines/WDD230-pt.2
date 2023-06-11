@@ -34,22 +34,22 @@
     <main id="join-main">
       <form action="thankyou.html" method="get" autocomplete="on">
         <div class="inputs">
-          <lable for="fname">First Name *:</lable>
+          <label for="fname">First Name *:</label>
           <input
             id="fname"
             class="bars"
-            name="first name"
+            name="first_name"
             type="text"
             required
           />
         </div>
 
         <div class="inputs">
-          <lable for="lname">Last Name *:</lable>
+          <label for="lname">Last Name *:</label>
           <input
             id="lname"
             class="bars"
-            name="last name"
+            name="last_name"
             type="text"
             required
           />
@@ -88,6 +88,17 @@
             minlength="10"
             name="telephone"
             placeholder="(###) ###-####"
+            required
+          />
+        </div>
+
+        <div class="inputs">
+          <label for="businessName">Business Name/Title *:</label>
+          <input
+            id="businessName"
+            class="bars"
+            type="text"
+            name="businessName"
             required
           />
         </div>

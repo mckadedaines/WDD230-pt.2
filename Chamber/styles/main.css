@@ -271,20 +271,28 @@ fieldset {
 }
 
 .cards {
-  color: black;
-  /* display: flex;
-    flex-wrap: wrap; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards horizontally */
 }
 
 .cards section {
   background-color: lightgray;
   border: 2px solid black;
   margin: 5px;
-  /* width: 100%; */
+  width: 100%; /* Adjust the width of the cards to fit two cards per row on mobile */
+  max-width: unset; /* Set a maximum width for the cards to prevent them from becoming too wide */
 }
 
 .cards img {
-  width: 25%;
+  width: 100%; /* Make the images fill the width of the card */
+  height: auto; /* Automatically adjust the image height to maintain aspect ratio */
+}
+
+.cards li {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
 }
 
 .social_icons {
@@ -354,4 +362,23 @@ fieldset {
 
 .footer_image {
   width: 100px;
+}
+
+.list-table {
+  display: block; /* Display the list items in a single column */
+  margin-top: 20px;
+}
+
+.list-table div {
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 10px; /* Add some spacing between the list items */
+}
+
+.list-table h2 {
+  font-weight: bold; /* Make the business names bold */
+}
+
+.list-table div:nth-child(3) {
+  grid-column: initial; /* Reset the grid-column property */
 }

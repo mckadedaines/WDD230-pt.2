@@ -85,7 +85,36 @@
     grid-column-end: 4;
   }
 
-  /* #footer_image {
-    display: flex;
-  } */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .list-table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Display two columns for the table-like format */
+    grid-gap: 10px; /* Add some gap between the cells */
+  }
+
+  .list-table div {
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  .list-table h2 {
+    font-weight: bold; /* Make the business names bold */
+  }
+
+  .list-table div:nth-child(1) {
+    grid-column: 1; /* Place names in the first column */
+  }
+
+  .list-table div:nth-child(2) {
+    grid-column: 2; /* Place addresses in the second column */
+  }
+
+  .list-table div:nth-child(3) {
+    grid-column: 1 / span 2; /* Span the link column across both grid columns */
+  }
+
 }

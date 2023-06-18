@@ -8,7 +8,6 @@ async function getCards(requestURL) {
     console.log(jsonObject);
     const cards = jsonObject["directory"];
     cards.forEach(displayBusiness);
-    // prophets.forEach(displayTable);
   }
 }
 

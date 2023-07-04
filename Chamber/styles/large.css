@@ -86,7 +86,7 @@
 
   .cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px; /* Add some gap between the cards */
   }
   
@@ -97,13 +97,13 @@
 
   .list-table {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Create three columns for the table-like format */
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px; /* Add some gap between the cells */
   }
   
   .list-table div {
     padding: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
   
   .list-table h2 {
@@ -121,4 +121,69 @@
   .list-table div:nth-child(3) {
     grid-column: 3; /* Place links in the third column */
   }  
+
+  .discover-pics {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .discover-p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .discover-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Add this line to center the content vertically */
+    text-align: center; /* Add this line to center the content horizontally */
+  }
+  
+  .discover-box {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .cards.list-view {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .list-view .name-cell {
+    grid-column: 1; /* Place name cells in the first column */
+  }
+  
+  .list-view .phone-cell {
+    grid-column: 2; /* Place phone cells in the second column */
+  }
+  
+  .list-view .address-cell {
+    grid-column: 3; /* Place address cells in the third column */
+  }
+  
+  .list-view .website-cell {
+    grid-column: 4; /* Place website cells in the fourth column */
+  }
+  
+  /* Additional styling for the cells */
+  .name-cell,
+  .phone-cell,
+  .address-cell,
+  .website-cell {
+    flex-basis: 100%;
+    width: 100%;
+  }
+
+  .table-row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgba(255, 255, 0, 0.592);
+  }
+
+  .table-row:nth-child(even) {
+    background-color: #e2dfd8;
+  }
 }

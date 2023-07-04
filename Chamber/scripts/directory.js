@@ -49,19 +49,28 @@ function displayBusinessAsCard(card) {
 
 function displayBusinessAsList(card) {
   let tableRow = document.createElement("div");
-  let nameCell = document.createElement("div");
-  let addressCell = document.createElement("div");
-  let websiteCell = document.createElement("div");
+  let nameCell = document.createElement("h2");
+  let phoneCell = document.createElement("p");
+  let addressCell = document.createElement("p");
+  let websiteCell = document.createElement("p");
 
   nameCell.textContent = card.name;
+  phoneCell.textContent = card.phone;
   addressCell.textContent = card.address;
   websiteCell.textContent = card.website;
 
+  tableRow.classList.add("table-row");
+  nameCell.classList.add("name-cell");
+  phoneCell.classList.add("phone-cell");
+  addressCell.classList.add("address-cell");
+  websiteCell.classList.add("website-cell");
+
   tableRow.appendChild(nameCell);
+  tableRow.appendChild(phoneCell);
   tableRow.appendChild(addressCell);
   tableRow.appendChild(websiteCell);
 
-  document.querySelector(".cards.list-table").appendChild(tableRow);
+  document.querySelector(".cards.list-view").appendChild(tableRow);
 }
 
 function clearDisplay() {

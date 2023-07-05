@@ -1,5 +1,5 @@
 const requestURL =
-  "https://mckadedaines.github.io/WDD230-pt.2/Chamber/json/data.json";
+  "https://mckadedaines.github.io/WDD230-pt.2/chamber/json/data.json";
 
 document.getElementById("cards").addEventListener("click", displayCards);
 document.getElementById("list").addEventListener("click", displayList);

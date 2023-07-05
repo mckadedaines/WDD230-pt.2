@@ -57,7 +57,7 @@ if (today === 1 || today === 2) {
   var banner = document.createElement("div");
   banner.className = "banner";
   banner.innerText =
-    "Come join us for the Chamber meet and greet Monday and Tuesday at 7:00pm!";
+    "Come join us for the chamber meet and greet Monday and Tuesday at 7:00pm!";
 
   // Append the banner to the body
   document.body.appendChild(banner);

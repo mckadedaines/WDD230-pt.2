@@ -75,6 +75,7 @@ function displayBusinessAsList(card) {
 
 function clearDisplay() {
   document.querySelector(".cards.list-table").innerHTML = "";
+  document.querySelector(".cards.list-view").innerHTML = "";
 }
 
 // Automatically display the cards when the page loads

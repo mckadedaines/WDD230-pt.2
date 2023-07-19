@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display+SC&display=swap");
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ece1cb;
+  color: #333333;
+  font-family: Lora;
+}
+
+#logo {
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 50%;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  font-family: Playfair;
+  color: #333333;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+  margin-right: 3%;
+  margin-left: 3%;
+  border-radius: 10px 10px 0px 0px;
+  /* margin-bottom: 30px; */
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: x-large;
+  font-family: Playfair;
+}
+
+nav ul li a:hover {
+  color: #704214;
+  font-size: xx-large;
+  transition: font-size 0.3s ease-in-out;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row: 1fr 1fr;
+  background-color: #333;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-bottom: 30px;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  font-family: Playfair;
+  grid-column: 1/2;
+  grid-row: 1;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  grid-column: 2/3;
+}
+
+.media {
+  margin-top: 5%;
+  grid-column: 1/4;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer_section_2 {
+  grid-column: 2/4;
+  grid-row: 1;
+}
+
+.social_icons {
+  width: 50px;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: none;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+  color: white;
+  font-size: 3em;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.model {
+  width: 94%;
+  border-radius: 20px 20px 20px 20px;
+  margin-top: 10px;
+}
+
+.slider {
+  position: relative;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.image-container {
+  display: none;
+  width: 100%;
+  text-align: center; /* Center the image within the container */
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  font-size: 100%;
+}
+
+#intro p {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.cali {
+  width: 94%;
+  border-radius: 20px 20px 20px 20px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  margin-left: 3%;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.clothes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.clothes-img {
+  width: 100%;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.weatherBox {
+  text-align: center;
+  background-color: #333333;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+#submission-card {
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Medium View */
+@media screen and (min-width: 550px) {
+  /* Styles for screens larger than 550px */
+  .navbar {
+    display: flex;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .social_icons {
+    width: 100px;
+  }
+
+  footer p {
+    font-size: xx-large;
+  }
+
+  .content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .clothes-img {
+    width: 100%;
+  }
+
+  .clothes-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 3px 6px #004225;
+  }
+
+  #logo {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  header h1 {
+    font-size: 3rem;
+  }
+
+  .weatherBox {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .weatherBox h4 {
+    margin: 0;
+    margin-top: 15px;
+  }
+
+  .weatherBox p {
+    margin: 0;
+  }
+}
+
+/* Large View */
+@media screen and (min-width: 900px) {
+  #logo {
+    width: 40%;
+    margin-left: 32%;
+  }
+
+  header h1 {
+    font-size: 5rem;
+  }
+
+  .social_icons {
+    width: 100px;
+  }
+
+  .model {
+    width: 40%;
+  }
+
+  .weatherBox {
+    gap: 10%;
+  }
+
+  .cali {
+    width: 35%;
+    margin-left: 32%;
+  }
+
+  .media {
+    grid-column: 3/4;
+    grid-row: 1;
+  }
+
+  .cali:hover{
+    transform: scale(1.05);
+    box-shadow: 0 3px 6px #004225;
+  }
+
+  #footer_section_2 {
+    grid-column: 2/3;
+    grid-row: 1;
+  }
+}

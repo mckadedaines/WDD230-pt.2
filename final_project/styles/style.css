@@ -65,7 +65,7 @@ nav ul li a:hover {
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-row: 1fr 1fr;
+  grid-row: 1fr 1fr 1fr;
   background-color: #333;
   padding: 20px;
   color: white;
@@ -202,6 +202,67 @@ h3 {
   margin-left: 10px;
 }
 
+.freshTitle {
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+select {
+  width: 40%;
+}
+
+.submit {
+  margin-bottom: 15px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+#outputArea {
+  text-align: center;
+}
+
+#aboutUs {
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+iframe {
+  margin-bottom: 15px;
+  width: 350px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.aboutUsList {
+  list-style: none;
+  padding: 0;
+}
+
+.book {
+  width: 94%;
+  border-radius: 50px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#foot {
+  gap: 50px;
+  grid-column: 1/4;
+  grid-row: 3;
+}
+
 /* Medium View */
 @media screen and (min-width: 550px) {
   /* Styles for screens larger than 550px */
@@ -214,7 +275,7 @@ h3 {
   }
 
   .social_icons {
-    width: 100px;
+    width: 70px;
   }
 
   footer p {
@@ -259,6 +320,14 @@ h3 {
   .weatherBox p {
     margin: 0;
   }
+
+  iframe {
+    width: 650px;
+  }
+
+  .book {
+    width: 55%;
+  }
 }
 
 /* Large View */
@@ -273,7 +342,7 @@ h3 {
   }
 
   .social_icons {
-    width: 100px;
+    width: 50px;
   }
 
   .model {
@@ -302,5 +371,14 @@ h3 {
   #footer_section_2 {
     grid-column: 2/3;
     grid-row: 1;
+  }
+
+  .book {
+    width: 35%;
+  }
+
+  .book:hover{
+    transform: scale(1.05);
+    box-shadow: 0 3px 6px #004225;
   }
 }

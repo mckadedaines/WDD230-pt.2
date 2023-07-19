@@ -11,7 +11,13 @@
   <body>
     <header>
       <h1>Bountiful</h1>
-      <img id="logo" src="images/fruitlogo.png" alt="Logo" />
+      <img
+        id="logo"
+        class="lazy"
+        data-src="images/fruitlogo.png"
+        src="images/placeholder-img.svg"
+        alt="Logo"
+      />
       <h1>Foods</h1>
     </header>
     <nav>
@@ -25,13 +31,28 @@
     <div class="fix">
       <div class="slider">
         <div class="image-container">
-          <img class="model" src="images/foodtruck.png" alt="Food truck" />
+          <img
+            class="model lazy"
+            data-src="images/foodtruck.png"
+            src="images/placeholder-img.svg"
+            alt="Food truck"
+          />
         </div>
         <div class="image-container">
-          <img class="model" src="images/fruitsmoothie.png" alt="Smoothie" />
+          <img
+            class="model lazy"
+            data-src="images/fruitsmoothie.png"
+            src="images/placeholder-img.svg"
+            alt="Smoothie"
+          />
         </div>
         <div class="image-container">
-          <img class="model" src="images/fruits.png" alt="Fruits" />
+          <img
+            class="model lazy"
+            data-src="images/fruits.png"
+            src="images/placeholder-img.svg"
+            alt="Fruits"
+          />
         </div>
       </div>
       <div id="intro">
@@ -107,24 +128,37 @@
       <p>&copy; Bountiful Foods</p>
       <div class="media">
         <a id="insta" href="https://www.instagram.com"
-          ><img class="social_icons" src="images/insta.png" alt="instagram"
+          ><img
+            class="social_icons lazy"
+            data-src="images/insta.png"
+            src="images/placeholder-img.svg"
+            alt="instagram"
         /></a>
         <a id="fb" href="https://www.facebook.com"
-          ><img class="social_icons" src="images/facebook.png" alt="facebook"
+          ><img
+            class="social_icons lazy"
+            data-src="images/facebook.png"
+            src="images/placeholder-img.svg"
+            alt="facebook"
         /></a>
         <a id="youtube" href="https://youtube.com"
-          ><img class="social_icons" src="images/youtube.png" alt="youtube"
+          ><img
+            class="social_icons lazy"
+            data-src="images/youtube.png"
+            src="images/placeholder-img.svg"
+            alt="youtube"
         /></a>
       </div>
       <div id="footer_section_2">
         <p>info@bountifulfoods.com</p>
-        <p>555-555-5555</p>
+        <p>(123) 456-7890</p>
         <a
           id="map"
-          href="https://www.google.com/maps/dir/33.2709623,-111.6309622/Carlsbad,+CA/@33.1786559,-119.7810876,6z/data=!3m1!4b1!4m19!1m8!3m7!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!2sCarlsbad,+CA!3b1!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24!4m9!1m1!4e1!1m5!1m1!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!2m2!1d-117.3505939!2d33.1580933!3e0?entry=ttu"
+          href="https://www.google.com/maps/dir/33.3058245,-111.8087506/Carlsbad,+CA/@33.2628241,-117.2203153,7z/data=!3m1!4b1!4m19!1m8!3m7!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!2sCarlsbad,+CA!3b1!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24!4m9!1m1!4e1!1m5!1m1!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!2m2!1d-117.3505939!2d33.1580933!3e0?entry=ttu"
           >Location Map (Click Me!)</a
         >
       </div>
+      <p id="foot">Last Updated: <a id="update"></a></p>
     </footer>
   </body>
 </html>
